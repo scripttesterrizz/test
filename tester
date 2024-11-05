@@ -147,6 +147,8 @@ BF.Chatted:Connect(function(msg)
     end
 end)
 
+chat("Hi! You can say 'follow', 'stop following', 'hug', 'stop hugging'")
+
 game:GetService("RunService").RenderStepped:Connect(function()
     if humanoid then
         local bfCharacter = BF.Character
